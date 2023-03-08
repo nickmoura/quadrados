@@ -1,0 +1,137 @@
+body{
+    background-color: lightgray;
+}
+
+body:hover {
+    background-color: violet;
+}
+
+.sup-esquerda{
+    background-color: black;
+    border-color: black;
+    color: black;
+    height: 40vh;
+    width: 40vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+.sup-esquerda:hover {
+    background-color: gold;
+    border-color: red;
+    color: gold;
+    height: 40vh;
+    width: 40vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 1.0s;
+
+}
+
+.inf-esquerda{
+    background-color: black;
+    border-color: black;
+    color: black;
+    height: 40vh;
+    width: 40vh;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.inf-esquerda:hover{
+    background-color: red;
+    border-color: gold;
+    color: red;
+    height: 40vh;
+    width: 40vh;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 1s;
+}
+
+
+.sup-direita{
+    background-color: black;
+    border-color: black;
+    color: black;
+    height: 40vh;
+    width: 40vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.sup-direita:hover{
+    background-color: silver;
+    border-color: blue;
+    color: silver;
+    height: 40vh;
+    width: 40vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: 1.0s;
+}
+
+.inf-direita{
+    background-color: black;
+    border-color: black;
+    color: black;
+    height: 40vh;
+    width: 40vh;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.inf-direita:hover{
+    background-color: blue;
+    border-color: silver;
+    color: blue;
+    height: 40vh;
+    width: 40vh;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition: 1s;
+}
+
+/* Menu pra troca de imagens */
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    margin-left: 500px;
+}
+
+li{
+    display: inline;
+    /* float: left; */
+}
+
+li a{
+    border-color: blue;
+    background-color: red;
+    color: white;
+    width: 100px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+li a:hover{
+    border-color: gold;
+    border: 1px;
+    background-color: white;
+    color: red;
+    width: 100px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
+    transition: 1.5s;
+}

@@ -1,0 +1,160 @@
+body{
+    background-color: lightgray;
+}
+
+.quadrado1{
+    background-color: black;
+    border-color: black;
+    height: 10vh;
+    width: 10vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.quadrado2{
+    background-color: black;
+    border-color: black;
+    height: 10vh;
+    width: 10vh;
+    position: absolute;
+    top: 11vh;
+    left: 0;
+}
+
+.quadrado3{
+    background-color: black;
+    border-color: black;
+    height: 10vh;
+    width: 10vh;
+    position: absolute;
+    top: 22vh;
+    left: 0;
+}
+
+.quadrado4{
+    background-color: black;
+    border-color: black;
+    height: 10vh;
+    width: 10vh;
+    position: absolute;
+    top: 0;
+    left: 11vh;
+}
+
+.quadrado5{
+    background-color: black;
+    border-color: black;
+    height: 10vh;
+    width: 10vh;
+    position: absolute;
+    top: 11vh;
+    left: 11vh;
+}
+
+.quadrado6{
+    background-color: black;
+    border-color: black;
+    height: 10vh;
+    width: 10vh;
+    position: absolute;
+    top: 0;
+    left: 22vh;
+}
+
+.quadrado7{
+    background-color: black;
+    border-color: black;
+    height: 10vh;
+    width: 10vh;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.quadrado8{
+    background-color: black;
+    border-color: black;
+    height: 10vh;
+    width: 10vh;
+    position: absolute;
+    bottom: 11vh;
+    right: 0;
+}
+
+.quadrado9{
+    background-color: black;
+    border-color: black;
+    height: 10vh;
+    width: 10vh;
+    position: absolute;
+    bottom: 22vh;
+    right: 0;
+}
+
+.quadrado10{
+    background-color: black;
+    border-color: black;
+    height: 10vh;
+    width: 10vh;
+    position: absolute;
+    bottom: 0;
+    right: 11vh;
+}
+
+.quadrado11{
+    background-color: black;
+    border-color: black;
+    height: 10vh;
+    width: 10vh;
+    position: absolute;
+    bottom: 11vh;
+    right: 11vh;
+}
+
+.quadrado12{
+    background-color: black;
+    border-color: black;
+    height: 10vh;
+    width: 10vh;
+    position: absolute;
+    bottom: 0;
+    right: 22vh;
+}
+
+/* Menu pra troca de imagens */
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    margin-left: 500px;
+}
+
+li{
+    display: inline;
+    /* float: left; */
+}
+
+li a{
+    border-color: blue;
+    background-color: red;
+    color: white;
+    width: 100px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+li a:hover{
+    border-color: gold;
+    border: 1px;
+    background-color: white;
+    color: red;
+    width: 100px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
+    transition: 1.5s;
+}
