@@ -1,0 +1,158 @@
+conjunto{
+    margin: 10px;
+    padding: 0;
+}
+
+body{
+    background-color: lightgrey;
+}
+
+.azul{
+    position: absolute;
+    background-color: blue;
+    border-color: blue;
+    color: blue;
+    width: 95vh;
+    height: 95vh;
+    margin-left: 50vh;
+    
+}
+.azul:hover{
+    position: absolute;
+    background-color:lightgrey;
+    border-color: lightgrey;
+    color: lightgrey;
+    width:95vh;
+    height: 95vh;
+    margin-left: 50vh;
+    transition: 1.0s;
+}
+
+.vermelho{
+    position: absolute;
+    background-color: red;
+    border-color: red;
+    color: red;
+    width: 75vh;
+    height: 75vh;
+    margin-left: 60vh;
+    margin-top: 10vh;
+}
+
+.vermelho:hover{
+    position: absolute;
+    background-color: blue;
+    border-color: blue;
+    color: blue;
+    width: 75vh;
+    height: 75vh;
+    margin-left: 60vh;
+    margin-top: 10vh;
+    transition: 1.0s;
+}
+
+.preto{
+    position: absolute;
+    background-color: black;
+    border-color: black;
+    color: black;
+    width: 55vh;
+    height: 55vh;
+    margin-left: 70vh;
+    margin-top: 20vh;
+}
+
+.preto:hover{
+    position: absolute;
+    background-color: red;
+    border-color: red;
+    color: red;
+    width: 55vh;
+    height: 55vh;
+    margin-left: 70vh;
+    margin-top: 20vh;
+    transition: 1.0s;
+}
+
+.verde{
+    position: absolute;
+    background-color: green;
+    border-color: green;
+    color: green;
+    width: 35vh;
+    height: 35vh;
+    margin-left: 81.0vh;
+    margin-top: 31.0vh;
+}
+
+.verde:hover{
+    position: absolute;
+    background-color: black;
+    border-color: black;
+    color: black;
+    width: 35vh;
+    height: 35vh;
+    margin-left: 81.0vh;
+    margin-top: 31.0vh;
+    transition: 1.0s;
+}
+
+.amarelo{
+    position: absolute;
+    background-color: yellow;
+    border-color: yellow;
+    color: yellow;
+    width: 15vh;
+    height: 15vh;
+    margin-left: 90vh;
+    margin-top: 40vh;
+}
+.amarelo:hover{
+    position: absolute;
+    background-color: green;
+    border-color: green;
+    color: green;
+    width: 15vh;
+    height: 15vh;
+    margin-left: 90vh;
+    margin-top: 40vh;
+    transition: 1.0s;
+}
+
+
+/* Menu pra troca de imagens */
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li{
+    display: inline;
+    float: left;
+    padding-right: 3px;
+}
+
+li a{
+    border-color: blue;
+    background-color: red;
+    color: white;
+    width: 100px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+li a:hover{
+    border-color: gold;
+    border: 1px;
+    background-color: white;
+    color: red;
+    width: 100px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
+    transition: 1.0s;
+}
